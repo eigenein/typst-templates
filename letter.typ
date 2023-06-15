@@ -15,7 +15,7 @@
       *Tel.*:~#link("tel:" + author.phone) \
     ]
     #if "meta" in author [
-      #for key, value in author.meta [
+      #for (key, value) in author.meta [
         *#key*:~#value
       ]
     ]
