@@ -16,7 +16,7 @@
     ]
     #if "meta" in author [
       #for (key, value) in author.meta [
-        *#key*:~#value
+        *#key*:~#value \
       ]
     ]
   ]
